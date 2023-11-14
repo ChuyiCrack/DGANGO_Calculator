@@ -3,5 +3,6 @@ from django.urls import path
 
 urlpatterns=[
     path("", views.Calculator, name='calculator'),
-    path('result/', views.Result,name='result')
+    path('result/', views.Result,name='result'),
+    path('error/',views.error, name='error')
 ]
